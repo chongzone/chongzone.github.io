@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>九月的风</title>
+  <title>chongzone</title>
   <icon>https://www.gravatar.com/avatar/3e439efe129e790b45194ed158779e19</icon>
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://chongzone.github.io/</id>
   
   <author>
-    <name>chongzone</name>
+    <name>九月的风</name>
     <email>chongzone@163.com</email>
   </author>
   
@@ -67,9 +67,9 @@
       <category term="Life" scheme="http://chongzone.github.io/categories/Life/"/>
     
     
-      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="随笔" scheme="http://chongzone.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -100,9 +100,9 @@
       <category term="Life" scheme="http://chongzone.github.io/categories/Life/"/>
     
     
-      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="随笔" scheme="http://chongzone.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
