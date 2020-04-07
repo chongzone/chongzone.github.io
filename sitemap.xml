@@ -2,7 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/04/07/hello-world/</loc>
+    <loc>http://chongzone.github.io/Tags/index.html</loc>
+    
+    <lastmod>2020-04-07T08:30:03.310Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chongzone.github.io/my-works/index.html</loc>
+    
+    <lastmod>2020-04-07T08:29:32.140Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chongzone.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-04-07T08:29:21.840Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://chongzone.github.io/2020/04/07/hello-world/</loc>
     
     <lastmod>2020-04-07T03:43:55.357Z</lastmod>
     
