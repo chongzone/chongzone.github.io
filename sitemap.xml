@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://chongzone.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-04-07T09:51:14.672Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://chongzone.github.io/about/index.html</loc>
     
     <lastmod>2020-04-07T09:50:23.482Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://chongzone.github.io/my-works/index.html</loc>
     
     <lastmod>2020-04-07T08:29:32.140Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chongzone.github.io/categories/index.html</loc>
-    
-    <lastmod>2020-04-07T08:29:21.840Z</lastmod>
     
   </url>
   
