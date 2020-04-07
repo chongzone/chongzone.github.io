@@ -6,30 +6,15 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chongzone.github.io/"/>
-  <updated>2020-04-07T12:56:05.471Z</updated>
+  <updated>2020-04-07T03:43:55.357Z</updated>
   <id>http://chongzone.github.io/</id>
   
   <author>
-    <name>九月的风</name>
+    <name>chongzone</name>
     <email>chongzone@163.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>three note</title>
-    <link href="http://chongzone.github.io/2020/04/07/three-note-1/"/>
-    <id>http://chongzone.github.io/2020/04/07/three-note-1/</id>
-    <published>2020-04-07T12:56:05.000Z</published>
-    <updated>2020-04-07T12:56:05.471Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -58,7 +43,7 @@
     <link href="http://chongzone.github.io/2017/04/21/three-note/"/>
     <id>http://chongzone.github.io/2017/04/21/three-note/</id>
     <published>2017-04-21T14:13:19.000Z</published>
-    <updated>2020-04-07T12:56:00.464Z</updated>
+    <updated>2020-04-07T13:06:35.645Z</updated>
     
     <content type="html"><![CDATA[<h1 id="阿三"><a href="#阿三" class="headerlink" title="阿三"></a>阿三</h1><ul><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li></ul><h2 id="吃"><a href="#吃" class="headerlink" title="吃"></a>吃</h2><ul><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li></ul><blockquote><p>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来<br>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来<br>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</p></blockquote>]]></content>
     
