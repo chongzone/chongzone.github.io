@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chongzone.github.io/"/>
-  <updated>2020-04-07T03:43:55.357Z</updated>
+  <updated>2020-04-11T12:37:48.654Z</updated>
   <id>http://chongzone.github.io/</id>
   
   <author>
@@ -17,121 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://chongzone.github.io/2020/04/07/hello-world/"/>
-    <id>http://chongzone.github.io/2020/04/07/hello-world/</id>
-    <published>2020-04-07T03:43:55.357Z</published>
-    <updated>2020-04-07T03:43:55.357Z</updated>
+    <title>日常问题小记</title>
+    <link href="http://chongzone.github.io/2017/07/21/Mac-%E6%97%A5%E5%B8%B8%E9%97%AE%E9%A2%98/"/>
+    <id>http://chongzone.github.io/2017/07/21/Mac-%E6%97%A5%E5%B8%B8%E9%97%AE%E9%A2%98/</id>
+    <published>2017-07-21T13:13:19.000Z</published>
+    <updated>2020-04-11T12:37:48.654Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>three note</title>
-    <link href="http://chongzone.github.io/2017/04/21/three-note/"/>
-    <id>http://chongzone.github.io/2017/04/21/three-note/</id>
-    <published>2017-04-21T14:13:19.000Z</published>
-    <updated>2020-04-07T13:06:35.645Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="阿三"><a href="#阿三" class="headerlink" title="阿三"></a>阿三</h1><ul><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li></ul><h2 id="吃"><a href="#吃" class="headerlink" title="吃"></a>吃</h2><ul><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li><li>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</li></ul><blockquote><p>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来<br>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来<br>在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调度到这个节点上。引入 Overhead 之后，只有节点的资源可用量大于等于 Overhead 加上 requests 的值时才能被调度上来</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="日常问题小记"><a href="#日常问题小记" class="headerlink" title="日常问题小记"></a>日常问题小记</h1><p>[toc]</p><h2 id="网速很慢"><a href="#网速很慢" class="headerlink" title="网速很慢"></a>网速很慢</h2><ul><li>出现这个问题, 一般是自己电脑的 <code>DNS</code> 域名解析设置有问题, 检查下自己的 <code>DNS</code> 设置基本都能解决</li></ul><h2 id="清除缓存文件"><a href="#清除缓存文件" class="headerlink" title="清除缓存文件"></a>清除缓存文件</h2><h3 id="Xcode-缓存"><a href="#Xcode-缓存" class="headerlink" title="Xcode 缓存"></a>Xcode 缓存</h3><ul><li>进入路径 <code>~/资源库/Developer/Xcode/</code>, 然后选择性删除文件, 其中 <code>DerivedData</code> 可以全部删除, <code>iOS DeviceSupport</code> 选择性的删除</li></ul><h3 id="微信缓存"><a href="#微信缓存" class="headerlink" title="微信缓存"></a>微信缓存</h3><ul><li>进入路径 <code>/Users/apple/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat</code>, 然后选择性删除文件</li></ul><h3 id="QQ-缓存"><a href="#QQ-缓存" class="headerlink" title="QQ 缓存"></a>QQ 缓存</h3><ul><li>进入路径 <code>/Users/apple/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ</code>, 然后选择性删除文件</li></ul><h2 id="dmg-软件提示已损坏"><a href="#dmg-软件提示已损坏" class="headerlink" title="dmg 软件提示已损坏"></a>dmg 软件提示已损坏</h2><ul><li>打开终端</li><li><code>sudo xattr -d com.apple.quarantine /Applications/xxxx.app</code></li><li>再次打开该软件</li></ul><h2 id="文件读取权限"><a href="#文件读取权限" class="headerlink" title="文件读取权限"></a>文件读取权限</h2><ul><li><code>mac</code> 系统中下载某些文件、新建某些项目之后, 这些文件默认只读, 这时我们只需要简单的一句权限命令就可以解决</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod -R 777  filePath &#x2F;&#x2F; filePath 文件上层路径</span><br></pre></td></tr></table></figure><h2 id="mac-获取-ssh-key"><a href="#mac-获取-ssh-key" class="headerlink" title="mac 获取 ssh key"></a>mac 获取 ssh key</h2><h3 id="密钥分类"><a href="#密钥分类" class="headerlink" title="密钥分类"></a>密钥分类</h3><ul><li><code>RSA SSH</code>密钥：最常见的密钥, 兼容性最好, 最小密钥大小为1024位, 默认为2048, 一般会选择这个</li><li><code>ED25519 SSH</code> 密钥：比其他类型更安全并且具有更好的性能</li></ul><h3 id="公钥-私钥"><a href="#公钥-私钥" class="headerlink" title="公钥\私钥"></a>公钥\私钥</h3><ul><li>公钥 –&gt; 存在托管库用来解密</li><li>私钥 –&gt; 存在本地一个 <code>.ssh</code> 文件下用来加密</li></ul><h3 id="生成-ssh-key"><a href="#生成-ssh-key" class="headerlink" title="生成 ssh key"></a>生成 ssh key</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C chongzone@163.com &#x2F;&#x2F; 自己邮箱</span><br></pre></td></tr></table></figure><ul><li><code>-C</code> 是可选的, 若有多个标记并想知道是哪个标记, 则该标记会在键中添加注释, 一般是使用系统默认的路径</li><li>后面回车之后一直按 <code>enter</code> 即可得到对应的密钥</li><li>密钥路径 –&gt; <code>/Users/apple/.ssh/</code></li></ul><img src="/2017/07/21/Mac-%E6%97%A5%E5%B8%B8%E9%97%AE%E9%A2%98/chongzone_id_rsa.pub.png" class="" title="id_rsa.pub"><ul><li>用 <code>Sublime Text</code> 打开, 接着添加到 <code>gitlab</code> \ <code>github</code> 上面</li></ul><h2 id="ARC-MRC-环境配置"><a href="#ARC-MRC-环境配置" class="headerlink" title="ARC \ MRC 环境配置"></a>ARC \ MRC 环境配置</h2><ul><li>在非 <code>ARC</code> 工程中采用ARC去编译某些类：<code>-fobjc-arc</code></li><li>在 <code>ARC</code> 下的工程采用非ARC去编译某些类：<code>-fno-fobjc-arc</code></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;阿三&quot;&gt;&lt;a href=&quot;#阿三&quot; class=&quot;headerlink&quot; title=&quot;阿三&quot;&gt;&lt;/a&gt;阿三&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;在没有引入 Overhead 之前，只要一个节点的资源可用量大于等于 Pod 的 requests 时，这个 Pod 就可以被调
+        &lt;h1 id=&quot;日常问题小记&quot;&gt;&lt;a href=&quot;#日常问题小记&quot; class=&quot;headerlink&quot; title=&quot;日常问题小记&quot;&gt;&lt;/a&gt;日常问题小记&lt;/h1&gt;&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h2 id=&quot;网速很慢&quot;&gt;&lt;a href=&quot;#网速很慢&quot; class=&quot;headerl
       
     
     </summary>
     
     
-      <category term="技术" scheme="http://chongzone.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="干货" scheme="http://chongzone.github.io/categories/%E5%B9%B2%E8%B4%A7/"/>
+      <category term="记录错误" scheme="http://chongzone.github.io/categories/%E8%AE%B0%E5%BD%95%E9%94%99%E8%AF%AF/"/>
     
     
-      <category term="java" scheme="http://chongzone.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>two note</title>
-    <link href="http://chongzone.github.io/2017/03/02/tow-note/"/>
-    <id>http://chongzone.github.io/2017/03/02/tow-note/</id>
-    <published>2017-03-02T11:17:26.000Z</published>
-    <updated>2020-04-07T11:42:10.261Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="物体"><a href="#物体" class="headerlink" title="物体"></a>物体</h1><ul><li>多说即将关闭，本站启用Disqus</li><li>多说即将关闭，本站启用Disqus</li><li>多说即将关闭，本站启用Disqus</li></ul><h2 id="天空"><a href="#天空" class="headerlink" title="天空"></a>天空</h2><ul><li>多说即将关闭，本站启用Disqus</li><li>多说即将关闭，本站启用Disqus</li><li>多说即将关闭，本站启用Disqus</li></ul><hr><blockquote><p>多说即将关闭，本站启用Disqus<br>多说即将关闭，本站启用Disqus<br>多说即将关闭，本站启用Disqus<br>多说即将关闭，本站启用Disqus<br>多说即将关闭，本站启用Disqus</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;物体&quot;&gt;&lt;a href=&quot;#物体&quot; class=&quot;headerlink&quot; title=&quot;物体&quot;&gt;&lt;/a&gt;物体&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;多说即将关闭，本站启用Disqus&lt;/li&gt;
-&lt;li&gt;多说即将关闭，本站启用Disqus&lt;/li&gt;
-&lt;li&gt;多说即将关闭，本站启
-      
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://chongzone.github.io/categories/Diary/"/>
-    
-      <category term="Games" scheme="http://chongzone.github.io/categories/Diary/Games/"/>
-    
-      <category term="Life" scheme="http://chongzone.github.io/categories/Life/"/>
-    
-    
-      <category term="随笔" scheme="http://chongzone.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>one note</title>
-    <link href="http://chongzone.github.io/2017/03/01/one-note/"/>
-    <id>http://chongzone.github.io/2017/03/01/one-note/</id>
-    <published>2017-03-01T11:17:26.000Z</published>
-    <updated>2020-04-07T11:38:56.622Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="无"><a href="#无" class="headerlink" title="无"></a>无</h1><p>生活处处有风景</p><h2 id="有"><a href="#有" class="headerlink" title="有"></a>有</h2><p>你有什么, 你能失去什么, 你可以争取什么</p><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>你要悄悄拔尖, 然后惊艳所有人, 加油⛽️</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;无&quot;&gt;&lt;a href=&quot;#无&quot; class=&quot;headerlink&quot; title=&quot;无&quot;&gt;&lt;/a&gt;无&lt;/h1&gt;&lt;p&gt;生活处处有风景&lt;/p&gt;
-&lt;h2 id=&quot;有&quot;&gt;&lt;a href=&quot;#有&quot; class=&quot;headerlink&quot; title=&quot;有&quot;&gt;&lt;/a&gt;有&lt;/h2
-      
-    
-    </summary>
-    
-    
-      <category term="Diary" scheme="http://chongzone.github.io/categories/Diary/"/>
-    
-      <category term="Games" scheme="http://chongzone.github.io/categories/Diary/Games/"/>
-    
-      <category term="Life" scheme="http://chongzone.github.io/categories/Life/"/>
-    
-    
-      <category term="随笔" scheme="http://chongzone.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="生活" scheme="http://chongzone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="Mac" scheme="http://chongzone.github.io/tags/Mac/"/>
     
   </entry>
   

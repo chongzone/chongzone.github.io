@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        chongzone&#39;s blog
+        日常问题小记｜chongzone&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="http://chongzone.github.io/categories/Diary/">
+    <link rel="canonical" href="http://chongzone.github.io/2017/07/21/Mac-日常问题/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -49,7 +49,7 @@
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="" class="animated fadeIn">
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="false
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "true" data-istags="false
 " data-ishome = "false" >
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -94,7 +94,7 @@
                         
 							
                         <li>
-                            <a href="/categories/">categories</a>
+                            <a href="/my-works/">my works</a>
                         </li>
 							
 						
@@ -102,7 +102,7 @@
                         
 							
                         <li>
-                            <a href="/my-works/">my works</a>
+                            <a href="/categories/">categories</a>
                         </li>
 							
 						
@@ -146,248 +146,197 @@
 
 <!-- Main Content -->
 
+<!--only post-->
 
-<!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
-        <header class="intro-header">
-            <div class="container">
-                <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="/image/avatar/avatar.png"/>
-                        <h5><a href="/about/">chongzone</a></h5>
-                        <p></p>
+
+<img class="wechat-title-img"
+     src="">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('')
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>日常问题小记</h1>
+                    
+                    <span class="meta">
+                         作者 chongzone
+                        <span>
+                          日期 2017-07-21
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                        <a class="tag" href="/Tags/#Mac"
+                           title="Mac">Mac</a>
+                        
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     </div>
-</div>
-<!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
+    <div class="post-title-haojen">
+        <span>
+            日常问题小记
+        </span>
+    </div>
+</header>
 
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <h1 id="日常问题小记"><a href="#日常问题小记" class="headerlink" title="日常问题小记"></a>日常问题小记</h1><p>[toc]</p>
+<h2 id="网速很慢"><a href="#网速很慢" class="headerlink" title="网速很慢"></a>网速很慢</h2><ul>
+<li>出现这个问题, 一般是自己电脑的 <code>DNS</code> 域名解析设置有问题, 检查下自己的 <code>DNS</code> 设置基本都能解决</li>
+</ul>
+<h2 id="清除缓存文件"><a href="#清除缓存文件" class="headerlink" title="清除缓存文件"></a>清除缓存文件</h2><h3 id="Xcode-缓存"><a href="#Xcode-缓存" class="headerlink" title="Xcode 缓存"></a>Xcode 缓存</h3><ul>
+<li>进入路径 <code>~/资源库/Developer/Xcode/</code>, 然后选择性删除文件, 其中 <code>DerivedData</code> 可以全部删除, <code>iOS DeviceSupport</code> 选择性的删除</li>
+</ul>
+<h3 id="微信缓存"><a href="#微信缓存" class="headerlink" title="微信缓存"></a>微信缓存</h3><ul>
+<li>进入路径 <code>/Users/apple/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat</code>, 然后选择性删除文件</li>
+</ul>
+<h3 id="QQ-缓存"><a href="#QQ-缓存" class="headerlink" title="QQ 缓存"></a>QQ 缓存</h3><ul>
+<li>进入路径 <code>/Users/apple/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ</code>, 然后选择性删除文件</li>
+</ul>
+<h2 id="dmg-软件提示已损坏"><a href="#dmg-软件提示已损坏" class="headerlink" title="dmg 软件提示已损坏"></a>dmg 软件提示已损坏</h2><ul>
+<li>打开终端</li>
+<li><code>sudo xattr -d com.apple.quarantine /Applications/xxxx.app</code></li>
+<li>再次打开该软件</li>
+</ul>
+<h2 id="文件读取权限"><a href="#文件读取权限" class="headerlink" title="文件读取权限"></a>文件读取权限</h2><ul>
+<li><code>mac</code> 系统中下载某些文件、新建某些项目之后, 这些文件默认只读, 这时我们只需要简单的一句权限命令就可以解决</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod -R 777  filePath &#x2F;&#x2F; filePath 文件上层路径</span><br></pre></td></tr></table></figure>
 
+<h2 id="mac-获取-ssh-key"><a href="#mac-获取-ssh-key" class="headerlink" title="mac 获取 ssh key"></a>mac 获取 ssh key</h2><h3 id="密钥分类"><a href="#密钥分类" class="headerlink" title="密钥分类"></a>密钥分类</h3><ul>
+<li><code>RSA SSH</code>密钥：最常见的密钥, 兼容性最好, 最小密钥大小为1024位, 默认为2048, 一般会选择这个</li>
+<li><code>ED25519 SSH</code> 密钥：比其他类型更安全并且具有更好的性能</li>
+</ul>
+<h3 id="公钥-私钥"><a href="#公钥-私钥" class="headerlink" title="公钥\私钥"></a>公钥\私钥</h3><ul>
+<li>公钥 –&gt; 存在托管库用来解密</li>
+<li>私钥 –&gt; 存在本地一个 <code>.ssh</code> 文件下用来加密</li>
+</ul>
+<h3 id="生成-ssh-key"><a href="#生成-ssh-key" class="headerlink" title="生成 ssh key"></a>生成 ssh key</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C chongzone@163.com &#x2F;&#x2F; 自己邮箱</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>-C</code> 是可选的, 若有多个标记并想知道是哪个标记, 则该标记会在键中添加注释, 一般是使用系统默认的路径</li>
+<li>后面回车之后一直按 <code>enter</code> 即可得到对应的密钥</li>
+<li>密钥路径 –&gt; <code>/Users/apple/.ssh/</code></li>
+</ul>
+<img src="/2017/07/21/Mac-%E6%97%A5%E5%B8%B8%E9%97%AE%E9%A2%98/chongzone_id_rsa.pub.png" class="" title="id_rsa.pub">
 
-<div class="post-preview "
-     style="background-image: url('/image/avatar/avatar.png')">
-    <a href="/2017/03/02/tow-note/">
-        <h2 class="post-title">
-            two note
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2017-03-02
-        </p>
-        
-        <h3 class="post-subtitle">
-            not Note
-        </h3>
-        
-        <div class="post-content-preview">
-            <p>
-                物体
-多说即将关闭，本站启用Disqus
-多说即将关闭，本站启用Disqus
-多说即将关闭，本站启用Disqus
-
-天空
-多说即将关闭，本站启用Disqus
-多说即将关闭，本站启用Disqus
-多说即将关闭，本站启用Disqus
-
-
-
-多说即将关闭，本站启用Disqus多说即将关闭，本站启用Di..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('/image/avatar/avatar.png')">
-    <a href="/2017/03/01/one-note/">
-        <h2 class="post-title">
-            one note
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2017-03-01
-        </p>
-        
-        <h3 class="post-subtitle">
-            不知道说什么的 Note
-        </h3>
-        
-        <div class="post-content-preview">
-            <p>
-                无生活处处有风景
-有你有什么, 你能失去什么, 你可以争取什么
-End你要悄悄拔尖, 然后惊艳所有人, 加油⛽️
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
+<ul>
+<li>用 <code>Sublime Text</code> 打开, 接着添加到 <code>gitlab</code> \ <code>github</code> 上面</li>
+</ul>
+<h2 id="ARC-MRC-环境配置"><a href="#ARC-MRC-环境配置" class="headerlink" title="ARC \ MRC 环境配置"></a>ARC \ MRC 环境配置</h2><ul>
+<li>在非 <code>ARC</code> 工程中采用ARC去编译某些类：<code>-fobjc-arc</code></li>
+<li>在 <code>ARC</code> 下的工程采用非ARC去编译某些类：<code>-fno-fobjc-arc</code></li>
 </ul>
 
+                <hr>
+                
 
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+                
+
+                
+
+
+                <!--加入新的评论系统-->
+                
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC80OTUyMi8yNjAxMw">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#日常问题小记"><span class="toc-text">日常问题小记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#网速很慢"><span class="toc-text">网速很慢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#清除缓存文件"><span class="toc-text">清除缓存文件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Xcode-缓存"><span class="toc-text">Xcode 缓存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#微信缓存"><span class="toc-text">微信缓存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#QQ-缓存"><span class="toc-text">QQ 缓存</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#dmg-软件提示已损坏"><span class="toc-text">dmg 软件提示已损坏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文件读取权限"><span class="toc-text">文件读取权限</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mac-获取-ssh-key"><span class="toc-text">mac 获取 ssh key</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#密钥分类"><span class="toc-text">密钥分类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#公钥-私钥"><span class="toc-text">公钥\私钥</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成-ssh-key"><span class="toc-text">生成 ssh key</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ARC-MRC-环境配置"><span class="toc-text">ARC \ MRC 环境配置</span></a></li></ol></li></ol>
+                </div>
+            </div>
         </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
 
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <img src="/image/avatar/avatar.png"/>
-                    
-                    <h5><a href="/about/">chongzone</a></h5>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
+        <div class="row">
+            <!-- Sidebar Container -->
 
-                        
-                        <li>
-                            <a target="_blank" href="http://weibo.com/wangchongzone">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/Tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
                         
-                        <li>
-                            <a target="_blank" href="https://github.com/chongzone">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
+                        <a class="tag" href="/Tags/#Mac"
+                           title="Mac">Mac</a>
                         
+                    </div>
+                </section>
+                
 
+                <!-- Friends Blog 友链 -->
+                
+                <div style="margin-top: 20px;">
+                    <h5 class="text-center">友链</h5>
+                    <ul class="list-inline text-center">
                         
-                        <li>
-                            <a target="_blank" href="https://www.zhihu.com/people/wang-chong-79-58">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">知</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://www.jianshu.com/u/d1af2f4d03fb">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">简</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://juejin.im/user/589c1700128fe100580521e7">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">掘</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://segmentfault.com/u/chongzone_59ad4063e63b5">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">思</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-
-                        
-
+                        <li><a href="https://blog.ibireme.com/" target="_blank" rel="noopener">伽蓝之堂</a></li>
                         
                     </ul>
                 </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
-            
-            <section>
-                <div class="tags">
-                    
-                    
-                    <a href="/Tags/#随笔" title="随笔"
-                       rel="2">随笔</a>
-                    
-                    
-                    
-                    <a href="/Tags/#生活" title="生活"
-                       rel="2">生活</a>
-                    
-                    
-                    
-                    <a href="/Tags/#java" title="java"
-                       rel="1">java</a>
-                    
-                    
-                </div>
-            </section>
-            
-
-            <!-- friends  友链 -->
-            
-            <hr>
-            <h5 style="text-align: center;">友链</h5>
-            <ul class="list-inline" style="text-align: center;">
                 
-                <li><a href="https://blog.ibireme.com/" target="_blank">伽蓝之堂</a></li>
-                
-            </ul>
-            
-
+            </div>
         </div>
+
     </div>
-</div>
+</article>
+
+
+
+
+
+
 
 <!-- Footer -->
 <!-- Footer -->
